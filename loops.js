@@ -1,11 +1,11 @@
-function forLoop(arr) {
+function forLoop(array) {
   for(var i = 0; i < 25; i++) {
     if(i === 1) {
-      arr.push("I am 1 strange loop.");
-      return arr;
+      array.push("I am 1 strange loop.");
+      return array;
     } else {
-      arr.push(`I am ${i} strange loops.`);
-      return arr;
+      array.push(`I am ${i} strange loops.`);
+      return array;
     }
   }
 }
